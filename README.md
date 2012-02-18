@@ -1,4 +1,4 @@
-Codeigniter simple assets
+CodeIgniter Simple Assets
 =========================
 
 This will be the most simple asset helper you have ever seen. It is a wrapper around CodeIgniter's base_url() function with the addition of an asset group parameter.
@@ -6,7 +6,7 @@ This will be the most simple asset helper you have ever seen. It is a wrapper ar
 Installation
 ------------
 
-Copy the files to the corresponding folder in your application folder.
+Copy the files to the corresponding folder in your application folder (or use spark).
 
 Structure
 ---------
