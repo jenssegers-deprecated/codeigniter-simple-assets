@@ -13,36 +13,36 @@ Structure
 
 In your root, create a folder called assets with this structure:
 
-	assets
-	-- css
-	-- img
-	-- js
-	
+    assets
+    -- css
+    -- img
+    -- js
+    
 If you would rather work with asset groups you can use the following structure:
 
-	assets
-	-- fancy
-	   -- css
-	   -- img
-	   -- js
-	-- mobile
-	   -- css
-	   -- img 
-	   -- js
-	
+    assets
+    -- fancy
+       -- css
+       -- img
+       -- js
+    -- mobile
+       -- css
+       -- img 
+       -- js
+    
 Usage
 -----
 
 This helper is loaded using the following code:
 
-	$this->load->helper('url');
-	
+    $this->load->helper('url');
+    
 Or autoload it by adding 'url' to the $autoload['helper'] array in the autoload.php file.
 
 To get the url to your asset files you use the `asset_url()` function:
 
-	<img src="<?php echo asset_url("img/logo.jpg"); ?>" />
-	
+    <img src="<?php echo asset_url("img/logo.jpg"); ?>" />
+    
 This will load logo.jpg from the assets/img/ directory. If you decided to split your assets in groups you can use the extra optional group parameter:
 
-	<img src="<?php echo asset_url("img/logo.jpg", "mobile"); ?>" />
+    <img src="<?php echo asset_url("img/logo.jpg", "mobile"); ?>" />
